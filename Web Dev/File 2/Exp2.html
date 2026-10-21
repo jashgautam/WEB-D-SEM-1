@@ -1,14 +1,78 @@
 <!DOCTYPE html>
-<html>
- <head>
- </head>
- <body>
-    <p align="centre">
-     <h1 align="centre">Global Daily News</h1>
-     <h4 align="centre">Your Trusted Score For Latest Updates</h4>
-     <hr>
-    <p align="centre"
-    <a href="world">World</a>
-    <a href="sports">Sports</a>
-    <a href="Entertainment">Entertainment</a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Daily News</title>
+</head>
+<body>
 
+    <!-- Header -->
+    <header>
+        <h1 align="center">Global Daily News</h1>
+        <p align="center">Your Trusted Source for Latest Updates</p>
+    </header>
+    <hr>
+
+    <!-- Navigation links (each link has an id) -->
+    <nav align="center">
+        <a id="link-world" href="#world">World</a> |
+        <a id="link-sports" href="#sports">Sports</a> |
+        <a id="link-entertainment" href="#entertainment">Entertainment</a> |
+        <a id="link-podcast" href="#podcast">Podcast</a> |
+        <a id="link-contact" href="#contact">Contact</a>
+    </nav>
+    <hr>
+
+    <!-- World News -->
+    <section id="world">
+        <h3>World News</h3>
+        <p>Today's top headline: Global leaders meet to discuss climate change initiatives.</p>
+        <img src="bbc.jpg" alt="BBC World News" width="500">
+        <br>
+        <a id="link-bbc" href="https://www.bbc.com/news" target="_blank">Read more on BBC</a>
+    </section>
+
+    <!-- Sports -->
+    <section id="sports">
+        <h2>Sports Update</h2>
+        <p>Highlights of yesterday's football match with thrilling last-minute goals!</p>
+        <iframe width="480" height="270"
+            src="https://youtu.be/5kR0gw9Rni4?si=ynvGKFTYB_6iZmmC"
+            title="Sports Highlights" allowfullscreen>
+        </iframe>
+    </section>
+    <hr>
+
+    <!-- Entertainment -->
+    <section id="entertainment">
+        <h2>Entertainment Buzz</h2>
+        <p>New movie trailer released today. Fans are excited!</p>
+        <video width="500" controls>
+            <source src="lego.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    <hr>
+
+    <!-- Podcast -->
+    <section id="podcast">
+        <h2>News Podcast</h2>
+        <p>Listen to today's top headlines:</p>
+        <audio controls>
+            <source src="jjr.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+    </section>
+    <hr>
+
+    <!-- Contact --
+    <footer id="contact">
+        <h3>Contact Us</h3>
+        <p>Email: <a id="link-email" href="mailto:aadarshhrajputt@gmail.com">kanishkindia282@gmail.com</a></p>
+        <p>Admission No: <b>2026B01010425</b></p>
+        <p>&copy; 2025 Global Daily News</p>
+    </footer>
+
+</body>
+</html>
